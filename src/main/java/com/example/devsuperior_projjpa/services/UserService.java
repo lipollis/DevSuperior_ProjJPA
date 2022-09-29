@@ -7,11 +7,12 @@ import com.example.devsuperior_projjpa.entities.User;
 import com.example.devsuperior_projjpa.repositories.UserRepository;
 import com.example.devsuperior_projjpa.services.exceptions.DatabaseException;
 import com.example.devsuperior_projjpa.services.exceptions.ResourceNotFoundException;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
+
+import javax.persistence.EntityNotFoundException;
 
 @Service
 public class UserService {

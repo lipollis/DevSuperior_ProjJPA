@@ -1,7 +1,7 @@
 package com.example.devsuperior_projjpa.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.io.Serializable;
 import java.time.Instant;

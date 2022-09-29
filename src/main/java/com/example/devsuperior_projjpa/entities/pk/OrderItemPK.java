@@ -2,9 +2,7 @@ package com.example.devsuperior_projjpa.entities.pk;
 
 import com.example.devsuperior_projjpa.entities.Order;
 import com.example.devsuperior_projjpa.entities.Product;
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import javax.persistence.*;
 
 import java.io.Serializable;
 
